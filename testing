@@ -1,1 +1,29 @@
+#include <iostream>
 
+using namespace std;
+
+int main() {
+
+double num;
+
+cout << "Enter your grade: ";
+cin >> num;
+
+if( num > 89 && num <= 100){
+    cout << "A";
+}
+else if(num >79 && num <89){
+    cout << "B";
+}
+else if(num >69 && num <79){
+    cout << "C";
+}
+else if(num >59 && num <69){
+    cout << "D";
+
+}
+else if(num <59){
+    cout << "F";
+}
+return 0;
+}
